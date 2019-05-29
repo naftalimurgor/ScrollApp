@@ -1,0 +1,150 @@
+.circles {
+    height: 50px;
+    width: 50px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+}
+.circles.row1 {
+    transform: rotateX(90deg) translateY(-2000px) translateZ(-500px);
+}
+.circles.row2 {
+    transform: rotateX(90deg) translateY(-2400px) translateZ(-500px) translateX(-200px);
+}
+.circles.row3 {
+    transform: rotateX(90deg) translateY(-2800px) translateZ(-500px) translateX(-400px);
+}
+.circles.row4 {
+    transform: rotateX(90deg) translateY(-3200px) translateZ(-500px) translateX(-600px);
+}
+.circles.row5 {
+    transform: rotateX(90deg) translateY(-3600px) translateZ(-500px) translateX(-800px);
+}
+.circles.row6 {
+    transform: rotateX(90deg) translateY(-4000px) translateZ(-500px) translateX(-1000px);
+}
+.circles.row7 {
+    transform: rotateX(90deg) translateY(-4400px) translateZ(-500px) translateX(-1200px);
+}
+.circles.row8 {
+    transform: rotateX(90deg) translateY(-4800px) translateZ(-500px) translateX(-1400px);
+}
+.circles.cir1 {
+    left: -2000px;
+}
+.circles.cir2 {
+    left: -1800px;
+}
+.circles.cir3 {
+    left: -1600px;
+}
+.circles.cir4 {
+    left: -1400px;
+}
+.circles.cir5 {
+    left: -1200px;
+}
+.circles.cir6 {
+    left: -1000px;
+}
+.circles.cir7 {
+    left: -800px;
+}
+.circles.cir8 {
+    left: -600px;
+}
+.circles.cir9 {
+    left: -400px;
+}
+.circles.cir10 {
+    left: -200px;
+}
+.circles.cir11 {
+    left: 0px;
+}
+.circles.cir12 {
+    left: 200px;
+}
+.circles.cir13 {
+    left: 400px;
+}
+.circles.cir14 {
+    left: 600px;
+}
+.circles.cir16 {
+    left: 800px;
+}
+.circles.cir17 {
+    left: 1000px;
+}
+.circles.cir18 {
+    left: 1200px;
+}
+.circles.cir19 {
+    left: 1400px;
+}
+.circles.cir20 {
+    left: 1600px;
+}
+.circles.cir21 {
+    left: 1800px;
+}
+.circles.cir22 {
+    left: 2000px;
+}
+.circles.cir23 {
+    left: 2200px;
+}
+.circles.cir24 {
+    left: 2400px;
+}
+.circles.cir25 {
+    left: 2600px;
+}
+.circles.cir26 {
+    left: 2800px;
+}
+.circles.cir27 {
+    left: 3000px;
+}
+.circles.cir28 {
+    left: 3200px;
+}
+.circles.cir29 {
+    left: 3400px;
+}
+.circles.cir30 {
+    left: 3600px;
+}
+.circles.cir31 {
+    left: 3800px;
+}
+.circles.cir32 {
+    left: 4000px;
+}
+.circles.cir33 {
+    left: 4200px;
+}
+.circles.cir34 {
+    left: 4400px;
+}
+.circles.cir35 {
+    left: 4600px;
+}
+.circles.cir36 {
+    left: 4800px;
+}
+.circles.cir37 {
+    left: 5000px;
+}
+.circles.cir38 {
+    left: 5200px;
+}
+.circles.cir39 {
+    left: 5400px;
+}
+.circles.cir40 {
+    left: 5600px;
+}
+

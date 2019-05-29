@@ -1,0 +1,14 @@
+#content {
+    background-color: #000000;
+}
+
+#intro {
+    z-index: 3000;
+    height: 100vh;
+    background-color: #000000;
+    padding-left: 50px;
+}
+#intro h1 {
+    font-size: 5vw;
+    color: #FFFFFF;
+}

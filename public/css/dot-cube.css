@@ -1,0 +1,53 @@
+.dot-cube-wrapper {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    right: 0;
+}
+.dot-cube-wrapper i {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: yellow;
+    opacity: .8;
+}
+
+.dot-cube {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    transform-style: preserve-3d;
+    margin-left: 100px;
+    transform: translateZ(-1000px);
+}
+.dot-cube .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dot-cube .face.face-2 {
+    transform: translateZ(-50px);
+}
+.dot-cube .face.face-3 {
+    transform: translateZ(-100px);
+}
+.dot-cube .face.face-4 {
+    transform: translateZ(-150px);
+}
+.dot-cube .face.face-5 {
+    transform: translateZ(-200px);
+}
+.dot-cube .face.face-6 {
+    transform: translateZ(-250px);
+}
+.dot-cube .face.face-7 {
+    transform: translateZ(-300px);
+}
+.dot-cube .face.face-8 {
+    transform: translateZ(-350px);
+}
+

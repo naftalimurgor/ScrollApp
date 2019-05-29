@@ -1,0 +1,149 @@
+/*#content .side-nav {
+  position: absolute;
+  right: -35px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 35px;
+  z-index: 3000;
+}
+#content .side-nav:hover {
+  width: 33%;
+  background: #000000;
+}
+#content .side-nav:hover .chapter-content {
+  top: 15px;
+  left: 10px;
+}
+#content .side-nav:hover .chapter-number, #content .side-nav:hover .chapter-title {
+  font-size: 16px;
+}
+#content .side-nav:hover .chapter-number {
+  margin-right: 5px;
+  color: #676292;
+}
+#content .side-nav a > div {
+  position: relative;
+  border-top: solid #FFFFFF 1px;
+  border-left: solid #FFFFFF 1px;
+  border-right: solid #FFFFFF 1px;
+}
+#content .side-nav a > div:hover {
+  background-color: #FFFFFF;
+}
+#content .side-nav a > div:hover .chapter-title {
+  color: #000000;
+}
+#content .side-nav .chapter1 {
+  height: 10%;
+}
+#content .side-nav .chapter2 {
+  height: 40%;
+}
+#content .side-nav .chapter3 {
+  height: 30%;
+}
+#content .side-nav .chapter4 {
+  height: 10%;
+}
+#content .side-nav .chapter5 {
+  height: 10%;
+}
+#content .side-nav .chapter-content {
+  white-space: nowrap;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  transition: .5s;
+}
+#content .side-nav .chapter-number, #content .side-nav .chapter-title {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 10px;
+  transition: .5s;
+}
+#content .side-nav .chapter-number {
+  margin-right: 15px;
+}
+#content .nav-selector {
+  position: absolute;
+  width: 100%;
+  z-index: 2001;
+  color: blue;
+  height: 50px;
+  border-bottom: 1px solid #3c3c3c;
+}
+#content .nav-selector.active {
+  color: white;
+}
+#content .nav-selector .chapter-label {
+  line-height: 50px;
+  padding-left: 20px;
+}
+#content .nav-selector .arrow {
+  position: absolute;
+  top: 18px;
+  right: 12px;
+  width: 0;
+  height: 0;
+}
+#content .nav-selector .arrow.arrow-up {
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #fff;
+}
+#content .nav-selector .arrow.arrow-down {
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid #fff;
+}
+#content .mobile-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3000;
+  margin-top: 13%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+#content .mobile-nav.active {
+  opacity: 1;
+}
+#content .mobile-nav a > div {
+  height: 16%;
+  position: relative;
+  border-bottom: solid #3c3c3c 1px;
+  border-left: solid #3c3c3c 1px;
+  border-right: solid #3c3c3c 1px;
+}
+#content .mobile-nav .active > div {
+  background: #FFF;
+  color: red;
+}
+#content .mobile-nav .active .chapter-title {
+  color: #333;
+}
+#content .mobile-nav .active .chapter-number {
+  color: #b3d3ee;
+}
+#content .mobile-nav .chapter-content {
+  white-space: nowrap;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  transition: .5s;
+}
+#content .mobile-nav .chapter-number, #content .mobile-nav .chapter-title {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 16px;
+  transition: .5s;
+  padding: 10px;
+}
+#content .mobile-nav .chapter-title {
+  left: 30px;
+}
+*/

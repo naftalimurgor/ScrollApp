@@ -1,0 +1,7 @@
+/*hack for world map---sprite*/
+
+.map {
+    fill: gray;
+    height: 50px;
+    width: 75px;
+}

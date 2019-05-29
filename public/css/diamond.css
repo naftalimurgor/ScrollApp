@@ -1,0 +1,58 @@
+/*.diamond-wrapper {
+  position: absolute;
+  top: 47%;
+  left: 0;
+  right: 0;
+  transform-style: preserve-3d;
+  z-index: 2000;
+  margin: 0 auto;
+  padding: 0;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-transform-origin: center center;
+      transform-origin: center center;
+  -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+}
+.diamond-wrapper .diamond {
+  border: solid #FFD37A .5px;
+  height: 250px;
+  width: 250px;
+  margin: -6px auto 0 auto;
+  opacity: .8;
+  -webkit-filter: blur(0);
+  position: absolute;
+  left: 50%;
+  top: 100%;
+}*/
+.diamond-wrapper .diamond.d1 {
+    transform: translateZ(-11600px) translateX(12px) translateY(18px);
+}
+.diamond-wrapper .diamond.d2 {
+    transform: translateZ(-11680px) translateX(12px) translateY(18px);
+}
+.diamond-wrapper .diamond.d3 {
+    transform: translateZ(-11760px) translateX(12px) translateY(18px);
+}
+.diamond-wrapper .diamond.d4 {
+    transform: translateZ(-11840px) translateX(12px) translateY(18px);
+}
+.diamond-wrapper .diamond.d5 {
+    transform: translateZ(-11920px) translateX(12px) translateY(18px);
+}
+.diamond-wrapper .diamond.d6 {
+    transform: translateZ(-12000px) translateX(12px) translateY(18px);
+}
+.diamond-wrapper .diamond.d7 {
+    transform: translateZ(-12080px) translateX(12px) translateY(18px);
+}
+.diamond-wrapper .diamond.d8 {
+    transform: translateZ(-12160px) translateX(12px) translateY(18px);
+}
+.diamond-wrapper .diamond.d9 {
+    transform: translateZ(-12240px) translateX(12px) translateY(18px);
+}
+.diamond-wrapper .diamond.d10 {
+    transform: translateZ(-12320px) translateX(12px) translateY(18px);
+}
+

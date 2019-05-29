@@ -1,0 +1,48 @@
+if (window.blockchain.lowFidelity) {
+    var CAMERA_FAR = 300;
+    var TERRAIN_WIDTH = 250;
+    var TERRAIN_WIDTH_SEGMENTS = 15;
+}
+if (window.blockchain.highFidelity) {
+    var CAMERA_FAR = 500;
+    var TERRAIN_WIDTH = 300;
+    var TERRAIN_WIDTH_SEGMENTS = 30;
+}
+var DEBUG_ENABLED = false;
+
+var LIGHT_POOL_SIZE = 2;
+var LIGHT_INTENSITY = 5;
+var LIGHT_ANGLE_SPEED = 2;
+var LIGHT_INTENSITY_SPEED = 3.5;
+var LIGHT_HEIGHT = 10;
+var LIGHT_SPAW_TIME = 800;
+
+var CAMERA_SPEED = 1;
+var CAMERA_AUTO_SPEED = 20;
+var CAMERA_AUTO_MOVE = true;
+var CAMERA_START_POSITION = new THREE.Vector3(1, 2, 0);
+var CAMERA_START_ROTATION = new THREE.Euler(0.23, 0, 0);
+
+var CAMERA_FOV = 60;
+var CAMERA_HORIZON_OFFSET = new THREE.Vector3(0, 6, -160);
+
+var TERRAIN_CHAPTER_LENGTHS = [];
+var TERRAIN_CHAPTER_COLORS = [0xffa9a9, 0xfae2b2, 0xc0f0e0, 0xc1e4fe, 0xb3b7e6];
+var TERRAIN_CHAPTER_TILES = ['tile_01.gif', 'tile_02.gif', 'tile_03.gif', 'tile_04.gif', 'tile_05.gif', 'tile_01.gif'];
+
+
+var TERRAIN_LENGTH = 0;
+var TERRAIN_LENGTH_SEGMENTS = 0;
+var TERRAIN_OFFSET = -40;
+var TERRAIN_VARIANCE_FACTOR = 4;
+var TERRAIN_FROM_PIXELS_FACTOR = 0.5;
+var TERRAIN_EXTRA_SIZE = 1000;
+
+var CHAPTER_COUNT = TERRAIN_CHAPTER_LENGTHS.length;
+
+var TILES_MAX_ALPHA = 0.8;
+var TILES_MIN_ALPHA = 0.6;
+var TILES_ALPHA_SPEED = 0.2;
+var TILES_OFFSET_SPEED = 0;
+var TILES_COLOR_CHANGE_DISTANCE = 150;
+var TILES_TRANSITION_LENGTH = 60;

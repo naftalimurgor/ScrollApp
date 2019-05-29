@@ -1,0 +1,51 @@
+/***/
+.floor {
+    position: absolute;
+    top: 57%;
+    left: -1000px;
+    right: 0;
+    transform-style: preserve-3d;
+    z-index: 2000;
+    margin: 0 auto;
+    padding: 0;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateX(90deg);
+    height: 1000px;
+    width: 4000px;
+}
+.floor.f1 {
+    transform: rotateX(90deg) translateY(0);
+}
+.floor.f2 {
+    transform: rotateX(90deg) translateY(-1000px);
+}
+.floor.f3 {
+    transform: rotateX(90deg) translateY(-2000px);
+}
+
+.particles {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    right: 0;
+    transform-style: preserve-3d;
+    z-index: 2000;
+    margin: 0 auto;
+    padding: 0;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+}
+
+.particle {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+

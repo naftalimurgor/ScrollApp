@@ -1,0 +1,127 @@
+.cube-wrapper {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    transform-style: preserve-3d;
+    margin: 0 auto;
+    padding: 0;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+}
+.cube-wrapper.c1 {
+    transform: translateZ(-8000px);
+    z-index: 1500;
+}
+.cube-wrapper.c2 {
+    transform: translateZ(-8400px);
+    z-index: 1400;
+}
+.cube-wrapper.c3 {
+    transform: translateZ(-8800px);
+    z-index: 1300;
+}
+.cube-wrapper.c4 {
+    transform: translateZ(-9200px);
+    z-index: 1200;
+}
+.cube-wrapper.c5 {
+    transform: translateZ(-9600px);
+    z-index: 1100;
+}
+.cube-wrapper.c6 {
+    transform: translateZ(-10000px);
+    z-index: 1000;
+}
+.cube-wrapper.c7 {
+    transform: translateZ(-10400px);
+    z-index: 900;
+}
+.cube-wrapper.c8 {
+    transform: translateZ(-10800px);
+    z-index: 800;
+}
+.cube-wrapper.c9 {
+    transform: translateZ(-11200px);
+    z-index: 700;
+}
+.cube-wrapper.c10 {
+    transform: translateZ(-11600px);
+    z-index: 600;
+}
+.cube-wrapper.c11 {
+    transform: translateZ(-12000px);
+    z-index: 500;
+}
+.cube-wrapper.c12 {
+    transform: translateZ(-12400px);
+    z-index: 400;
+}
+.cube-wrapper.c13 {
+    transform: translateZ(-12800px);
+    z-index: 300;
+}
+.cube-wrapper.c14 {
+    transform: translateZ(-13200px);
+    z-index: 200;
+}
+.cube-wrapper.c15 {
+    transform: translateZ(-13600px);
+    z-index: 100;
+}
+
+.cube {
+    width: 400px;
+    height: 400px;
+    z-index: 2000;
+    transform-style: preserve-3d;
+    position: relative;
+    margin: 0 auto;
+}
+.cube div {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    font-family: 'Courier';
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.cube div.back {
+    transform: translateZ(-400px);
+    border: solid 5px white;
+    z-index: -1;
+}
+.cube div.right {
+    transform: translateX(200px) translateZ(-200px) rotateY(270deg);
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    z-index: 3000;
+}
+.cube div.left {
+    transform: translateX(-200px) translateZ(-200px) rotateY(270deg);
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+}
+.cube div.top {
+    transform: rotateX(-90deg) translateY(-200px);
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+}
+.cube div.bottom {
+    transform: rotateX(90deg) translateY(200px);
+    -ms-transform-origin: bottom center;
+    transform-origin: bottom center;
+}
+.cube div.front {
+    transform: translateZ(0);
+    border: solid 5px white;
+    z-index: 3000;
+}
+.cube div img {
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
