@@ -7817,7 +7817,7 @@ GS.Sitewide = function (a, c, b, d) {
                 if (b.documentMode === 11) {
                     var a = b.getElementsByTagName("head")[0], c = b.createElement("link");
                     c.type = "text/css";
-                    c.href = "/a/pgs/css/gs.browser.ie.11.css";
+                    c.href = "/css/gs.browser.ie.11.css";
                     c.rel = "stylesheet";
                     c.media = "screen,print";
                     a.appendChild(c)
@@ -7832,7 +7832,7 @@ GS.Sitewide = function (a, c, b, d) {
                 var b = a("body").innerWidth() > 1230;
                 a("body").toggleClass("view1280", b);
                 a("body").toggleClass("view1024", !b)
-            }, a('link[href$="gs.responsivedesign.css"]').length == 0 && a.get("/a/pgs/css/prod/gs.responsivedesign.css", function (b) {
+            }, a('link[href$="gs.responsivedesign.css"]').length == 0 && a.get("/css/gs.responsivedesign.css", function (b) {
                 a('<style type="text/css"></style>').html(b).appendTo("head")
             }),
                 GS.Sitewide.D(b));

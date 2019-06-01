@@ -20,57 +20,57 @@ jQuery(function($) {
         var scene2Pt1, scene2Pt2, scene2Pt3, scene2Pt4, scene2Pt5, scene2Pt6, scene2Pt7, scene2Pt8, scene2Pt9, scene2Pt10, scene2Pt11, scene2Pt12, scene2Pt13;
 
         var person1 = new Image();
-        person1.src = '/images/images/headshot-02.png';
+        person1.src = '/images/headshot-02.png';
         person1.onload = function() {
             //loaded;
         };
         var person2 = new Image();
-        person2.src = '/images/images/headshot-04.png';
+        person2.src = '/images/headshot-04.png';
         person2.onload = function() {
             //loaded;
         };
         var person3 = new Image();
-        person3.src = '/images/images/headshot-06.png';
+        person3.src = '/images/headshot-06.png';
         person3.onload = function() {
             //loaded;
         };
         var person4 = new Image();
-        person4.src = '/images/images/headshot-13.png';
+        person4.src = '/images/headshot-13.png';
         person4.onload = function() {
             //loaded;
         };
         var person5 = new Image();
-        person5.src = '/images/images/headshot-05.png';
+        person5.src = '/images/headshot-05.png';
         person5.onload = function() {
             //loaded;
         };
         var person6 = new Image();
-        person6.src = '/images/images/headshot-08.png';
+        person6.src = '/images/headshot-08.png';
         person6.onload = function() {
             //loaded;
         };
         var person7 = new Image();
-        person7.src = '/images/images/headshot-10.png';
+        person7.src = '/images/headshot-10.png';
         person7.onload = function() {
             //loaded;
         };
         var person8 = new Image();
-        person8.src = '/images/images/headshot-09.png';
+        person8.src = '/images/headshot-09.png';
         person8.onload = function() {
             //loaded;
         };
         var person9 = new Image();
-        person9.src = '/images/images/headshot-01.png';
+        person9.src = '/images/headshot-01.png';
         person9.onload = function() {
             //loaded;
         };
         var person10 = new Image();
-        person10.src = '/images/images/headshot-11.png';
+        person10.src = '/images/headshot-11.png';
         person10.onload = function() {
             //loaded;
         };
         var person11 = new Image();
-        person11.src = '/images/images/headshot-12.png';
+        person11.src = '/images/headshot-12.png';
         person11.onload = function() {
             //loaded;
         };

@@ -991,7 +991,7 @@ section {
     height: 219px;
     margin: auto;
     transform: translateZ(-1000px);
-    background-image: url("/public/images/hash_01.png");
+    background-image: url("/images/hash_01.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

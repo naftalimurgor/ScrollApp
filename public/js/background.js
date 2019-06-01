@@ -1,4 +1,3 @@
-'use strict';
 var camera, scene, renderer;
 var terrains, tiles;
 var points, lines, trails;
@@ -95,7 +94,7 @@ function calculateTerrainLengths() {
 // debug
 function createDebugMarkers() {
     var loader = new THREE.FontLoader();
-    loader.load('/scrollApp/css/fonts/helvetiker_regular.typeface.json', function(font) {
+    loader.load('/css/fonts/helvetiker_regular.typeface.json', function(font) {
         // create marker for each chapter
         var z = 0;
         for (var i = 0; i < CHAPTER_COUNT - 1; i++) {
@@ -232,7 +231,7 @@ function createPoints() {
     points = new Array();
 
     // points
-    var pointsTexture = new THREE.TextureLoader().load('/scrollApp/images/vertex2.png');
+    var pointsTexture = new THREE.TextureLoader().load('/images/vertex2.png');
     var pointsMaterial = new THREE.SpriteMaterial({
         color: 0xffffff,
         map: pointsTexture,
@@ -265,7 +264,7 @@ function createPoints() {
 }
 
 function createHorizon() {
-    var t = new THREE.TextureLoader().load('/scrolApp/images/sample-bkg.jpg');
+    var t = new THREE.TextureLoader().load('/images/sample-bkg.jpg');
     t.wrapS = THREE.RepeatWrapping;
     t.wrapT = THREE.RepeatWrapping;
 
@@ -326,7 +325,7 @@ function createFloorTiles(font) {
 
 
         // ground
-        var tileTexture = new THREE.TextureLoader().load('/scrollApp/images/' + TERRAIN_CHAPTER_TILES[i]);
+        var tileTexture = new THREE.TextureLoader().load('/images/' + TERRAIN_CHAPTER_TILES[i]);
         tileTexture.wrapS = THREE.RepeatWrapping;
         tileTexture.wrapT = THREE.RepeatWrapping;
 
@@ -366,11 +365,11 @@ function createFloorTiles(font) {
     }
 
     // clouds
-    // createClouds();
+    createClouds();
 }
 
 function createClouds() {
-    var t = new THREE.TextureLoader().load('/scrollApp/images/clouds.png');
+    var t = new THREE.TextureLoader().load('/images/clouds.png');
     t.wrapS = THREE.RepeatWrapping;
     t.wrapT = THREE.RepeatWrapping;
     t.repeat.set(1, TERRAIN_LENGTH / 500);
