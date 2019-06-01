@@ -22,7 +22,7 @@ above dependencies.
 2. install express and nodemon by running <code>$ npm i g express nodemon</code><br>
 2. Git clone this repository<br>
 3. Run <code>npm install</code> from your terminal(in this case /your/directory$);
-4. run <code>npm start<code> from your working dirctory; your server should listen at port 3000
+4. run <code>npm start</code> from your working dirctory; your server should listen at port 3000
 3. or simply click index.html in the public/ directory and see the magic!<br>
 <em><b>Remember to use Google Chrome browser for best Viewing(Currently quirky on Mozilla Firefox :())</b></em>
 
