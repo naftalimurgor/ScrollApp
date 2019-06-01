@@ -18,7 +18,7 @@ ScrollApp is a responsive web application built using<br>
 above dependencies.
 
 **Running the App(changed)**<br>**
-1. ensure you have npm and node installed installed
+1. ensure you have npm and node installed installed <a href='https://docs.npmjs.com/downloading-and-installing-node-js-and-npm'> Get npm and nodejs</a>
 2. install express and nodemon by running <code>$ npm i g express nodemon</code><br>
 2. Git clone this repository<br>
 3. Run <code>npm install</code> from your terminal(in this case /your/directory$);
